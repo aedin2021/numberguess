@@ -7,10 +7,12 @@ public class numberguess {
         key = new Scanner(System.in);
         int pickednumber;
         int imput;
-        String playAGame;
+        boolean playAGame = true;
+        String y;
+        String n;
+        String answer;
 
-
-        System.out.println("test your luck and get the randomly generated number. (Note this only goes to 100.)");
+        do {System.out.println("test your luck and get the randomly generated number. (Note this only goes to 100.)");
         imput = key.nextByte();
         pickednumber = (int)(Math.random()*100);
         do {
@@ -23,9 +25,10 @@ public class numberguess {
             }
         }while (imput != pickednumber);
         if (imput == pickednumber) {
-            System.out.println("congratulations on wining! You got the 1 and "+ pickednumber+" chance of seeing this text!");}
-
-
+            System.out.println("congratulations on wining! You got the 1 and "+ pickednumber+" chance of seeing this text!");}}while (playAGame);
+        System.out.println("Would you like to play again?");
+        answer = key.nextLine();
+        playAGame = answer.equalsIgnoreCase("y");
 
 
 
