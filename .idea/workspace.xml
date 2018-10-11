@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="091760ff-715a-465a-9153-aa2ab8d9b758" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/numberguess/numberguess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/numberguess/numberguess.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/numberguess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/numberguess.java" afterDir="false" />
-    </list>
+    <list default="true" id="091760ff-715a-465a-9153-aa2ab8d9b758" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +15,7 @@
       <file leaf-file-name="numberguess.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/numberguess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="578">
               <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
             </state>
           </provider>
@@ -44,7 +40,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="103" />
     <option name="y" value="-21" />
     <option name="width" value="1116" />
@@ -174,7 +170,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21780604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21780604" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -253,7 +249,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/numberguess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="578">
           <caret line="66" column="53" lean-forward="true" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
         </state>
       </provider>
