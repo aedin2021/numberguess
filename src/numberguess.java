@@ -11,14 +11,12 @@ import java.util.Scanner;
 
                 int imput;
 
-                boolean playAGame = true;
+                int playAGame;
 
-                boolean y;
+                int maxtries;
 
-                String n;
-
-                String answer = "";
-
+                maxtries = 10;
+                for (int tries = 0; tries<maxtries;tries++){
                 do {
 
                     System.out.println("test your luck and get the randomly generated number you only have 10 chances to do it, so be carful. (Note this only goes to 100.)");
@@ -28,6 +26,7 @@ import java.util.Scanner;
                     pickednumber = (int) (Math.random() * 100);
 
                     while (imput != pickednumber) {
+
 
                         if (imput < pickednumber) {
 
@@ -47,36 +46,30 @@ import java.util.Scanner;
 
                         System.out.println("congratulations on wining! You got the 1 and " + pickednumber + " chance of seeing this text!");
 
-                        System.out.println("Would you like to play again?(y/n)");
+                        System.out.println("Would you like to play again?(1 to continue/2 to stop)");
 
-              /*  if (answer.equals("n")) {
+
+                    }
+
+
+
+                    playAGame = key.nextByte();
+
+                }
+                while (playAGame == 1);
+
+                if (playAGame == 2){System.out.println("We hope you had fun please play again.");}
+
+
+
+    }
+}}
+/*  if (answer.equals("n")) {
 
                     playAGame = false;
 
                 }
 
                 else {playAGame = true;}*/
-                    }
-
-                    //maxtries=10
-                    //for(int tries=0;tries>maxtries;tries++;){coad}
-
-                    answer = key.nextLine();
-
-                }
-                while (answer.equalsIgnoreCase("y"));
-
-                System.out.println("YOU DON'T GET TO LEAVE THAT EASILY.");
-
-
-
-
-
-
-
-
-
-
-
-    }
-}
+//maxtries=10
+//for(int tries=0;tries>maxtries;tries++;){coad}
